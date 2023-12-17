@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/orange">
+
+
+        <EditText
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/menu"
+            android:id="@+id/menu"
+            android:paddingRight="50dp"
+            android:paddingLeft="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingRight="50dp"
+            android:text="Home Expense Tracker"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/gray"
+        android:layout_margin="20dp"
+        android:text="Income"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/gray"
+        android:layout_margin="20dp"
+        android:text="Expenses"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+</LinearLayout>
+

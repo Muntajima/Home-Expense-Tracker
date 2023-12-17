@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/profile"
+        android:title="My Profile">
+
+    </item>
+    <item android:id="@+id/dashboard"
+        android:title="Dashboard">
+
+    </item>
+    <item android:id="@+id/income"
+        android:title="Income">
+
+    </item>
+    <item android:id="@+id/search_income"
+        android:title="Search Income">
+
+    </item>
+    <item android:id="@+id/expense"
+        android:title="Expense">
+
+    </item>
+    <item android:id="@+id/search_expense"
+        android:title="Search Expense">
+
+    </item>
+    <item android:id="@+id/feedback"
+        android:title="Rate us">
+
+    </item>
+    <item android:id="@+id/about"
+        android:title="About">
+
+    </item>
+    <item android:id="@+id/logout"
+        android:title="Logout">
+
+    </item>
+</menu>
